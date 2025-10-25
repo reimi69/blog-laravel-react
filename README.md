@@ -1,4 +1,4 @@
-# Простой блог с комментариями
+# Блог с комментариями
 
 Полноценное приложение-блог, разработанное на **Laravel (Backend)** и **React (Frontend)**, с контейнеризацией через **Docker**.  
 Реализован базовый CRUD для статей и возможность добавления комментариев.
@@ -33,14 +33,6 @@ Frontend: http://localhost:3000
 
 Backend (API): http://localhost:8000/api/articles
 
-### Структура проекта
-blog-app/
-│
-├── backend/           # Laravel API
-│
-├── frontend/          # React-приложение
-│
-└── docker/            # Docker-конфигурация
 
 ##  Установка и запуск
 
@@ -75,3 +67,11 @@ npm install
 ```bash
 npm start
 
+### Структура проекта
+blog-app/
+│
+├── backend/           # Laravel API
+│
+├── frontend/          # React-приложение
+│
+└── docker/            # Docker-конфигурация
