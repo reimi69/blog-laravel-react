@@ -43,7 +43,7 @@ git clone https://github.com/reimi69/blog-laravel-react.git
 
 2. **Запустить контейнеры**
 ```bash
-cd blog-app/docker
+cd blog-laravel-react/docker
 docker-compose up -d --build
 ```
 
@@ -71,7 +71,7 @@ npm install
 
 7. **Запустить фронтенд**
 ```bash
-npm start
+npm run dev
 ```
 
 ### Структура проекта
