@@ -27,6 +27,21 @@
 - **Backend**: Laravel, PHP, MySQL, Docker
 - **Frontend**: React, TailwindCSS
 
+## Доступ к приложению
+
+Frontend: http://localhost:3000
+
+Backend (API): http://localhost:8000/api/articles
+
+### Структура проекта
+blog-app/
+│
+├── backend/           # Laravel API
+│
+├── frontend/          # React-приложение
+│
+└── docker/            # Docker-конфигурация
+
 ##  Установка и запуск
 
 1. **Клонировать репозиторий** ф
@@ -60,17 +75,3 @@ npm install
 ```bash
 npm start
 
-## Доступ к приложению
-
-Frontend: http://localhost:3000
-
-Backend (API): http://localhost:8000/api/articles
-
-### Структура проекта
-blog-app/
-│
-├── backend/           # Laravel API
-│
-├── frontend/          # React-приложение
-│
-└── docker/            # Docker-конфигурация
