@@ -36,7 +36,7 @@ Backend (API): http://localhost:8000/api/articles
 
 ##  Установка и запуск
 
-1. **Клонировать репозиторий** ф
+1. **Клонировать репозиторий**
 ```bash
 git clone https://github.com/your-username/blog-app.git
 
