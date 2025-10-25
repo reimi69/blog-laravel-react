@@ -45,30 +45,37 @@ git clone https://github.com/your-username/blog-app.git
 ```bash
 cd blog-app/docker
 docker-compose up -d --build
+```
 
 3. **Установить зависимости Laravel**
 ```bash
 docker-compose exec app composer install
+```
 
 4. **Скопировать .env и сгенерировать ключ**
 ```bash
 docker-compose exec app cp .env.example .env
 docker-compose exec app php artisan key:generate
+```
 
 5. **Выполнить миграции и сиды**
 ```bash
 docker-compose exec app php artisan migrate --seed
+```
 
 6. **Установить зависимости фронтенда**
 ```bash
 cd ../frontend
 npm install
+```
 
 7. **Запустить фронтенд**
 ```bash
 npm start
+```
 
 ### Структура проекта
+```bash
 blog-app/
 │
 ├── backend/           # Laravel API
@@ -76,3 +83,4 @@ blog-app/
 ├── frontend/          # React-приложение
 │
 └── docker/            # Docker-конфигурация
+```
