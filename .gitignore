@@ -1,0 +1,27 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+
+# React
+frontend/node_modules
+frontend/build
+frontend/.env
+
+# Docker & misc
+docker/mysql-data
+docker/php/vendor
+docker-compose.override.yml
+*.sql
+*.sqlite
+*.db
+*.sql.gz
+
+# System
+.DS_Store
+Thumbs.db
+.idea
+.vscode
